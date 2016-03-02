@@ -175,8 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -184,6 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #a6a6a6;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
 }
 
 
@@ -633,7 +634,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #E4DEDE;
 }
 
 .team-member h4 {

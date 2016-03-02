@@ -14,3 +14,14 @@ hr {
 a.links {
   font-size: 18px;
 }
+
+.ruby-tag {
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: .75em;
+
+}
+
+iframe {
+  max-width: 1920px;
+  max-height: 1080px;
+}
