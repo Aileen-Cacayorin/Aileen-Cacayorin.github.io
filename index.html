@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/agency.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -35,17 +36,17 @@
                      <li class="hidden">
                          <a href="#page-top"></a>
                      </li>
-                     <!-- <li>
-                         <a class="page-scroll" href="#services">Services</a>
-                     </li>
-                     <li>
-                         <a class="page-scroll" href="#portfolio">Portfolio</a>
-                     </li> -->
                      <li>
                          <a class="page-scroll" href="#about">About</a>
                      </li>
                      <li>
                          <a class="page-scroll" href="#portfolio">Work</a>
+                     </li>
+                     <li>
+                         <a class="page-scroll" href="#">Resume</a>
+                     </li>
+                     <li>
+                         <a class="page-scroll" href="#contact">Contact</a>
                      </li>
                  </ul>
              </div>
@@ -65,6 +66,32 @@
              </div>
          </div>
      </header>
+     <!-- About Section -->
+    <section id="about">
+        <div class="container">
+          <div class="row">
+             <div class="col-lg-12 text-center">
+                 <h2 class="section-heading">About</h2>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-4">
+                 <div class="team-member">
+                     <img src="img/aileen.jpg" class="img-responsive img-circle" alt="">
+                 </div>
+             </div>
+             <div class="col-sm-8  text-left">
+                 <p class="large text-muted">Hi, I'm Aileen! I’m a web developer that likes writing clean, efficient code, and solving tough problems in the backend. </p>
+                 <p class="large text-muted">In my past life, I worked in event marketing as a promotional tour manager for brands such as SPAM, HEB, FORD, Nintendo, and 5 Hour Energy. I spent the last 3 years living out of hotel rooms (or AirBnBs!) and traveling the country producing live events for my clients. My experience in the field has given me a unique set of skills to bring to any project. </p>
+
+             </div>
+         </div>
+
+
+
+     </div>
+    </section>
+     <!--  Portfolio Section-->
      <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -120,15 +147,15 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>RSVP</h2>
-                            <p class="item-intro text-muted">An event planning tool.</p>
+                            <p class="item-intro text-muted"><strong>Built with Ruby on Rails, Google Maps Javascript API, and Expedia API.</strong></p>
                             <img class="img-responsive img-centered" src="img/rsvp.jpg" alt="">
                             <p>RSVP is a planning tool for event based travel (weddings, family reunions, etc). An event host can input important event details such as dates and location and then invite guests . Invited guests can then view those details, view the guest list, see what hotels other guests are staying at, and book hotels based on where other guests are staying. The app was conceived, designed, coded, and deployed over the span of one weekend and was a Finalist at the Expedia Seattle Hackathon.</p>
                             <p>
-                                <strong>Built with Ruby on Rails, Google Maps Javascript API and Expedia API.</strong>
+
                             </p>
                             <ul class="list-inline">
                                 <li ><a href="https://github.com/Aileen-Cacayorin/rsvp" class="links">GitHub</a></li>
-                                <li ><a href="http://rsvp-list.herokuapp.com/" class="links">Live</a></li>
+                                <li ><a href="http://rsvp-list.herokuapp.com/" class="links">Live Demo</a></li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -151,10 +178,13 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>My Piggy Bank</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <p class="item-intro text-muted"><strong>Built with Ruby on Rails, Google Charts, and Chartkick.</strong></p>
+                            <img class="img-responsive img-centered" src="img/piggybank.jpg" alt="">
+                            <p> My Piggy Bank is an online tool to help parents teach their kids about money. Parents create a family bank, add accounts for their children, and act as the banker. Parents can login, view their children's savings, account history, and approve transactions for allowances, chores, toys etc. Children can login to their account and view their curent savings. If is a child has actual cash to deposit or needs cash to spend, they can make a transaction request from their account. A parent can then log in, approve the request, exchange the money, and the new transacton is recorded.</p>
+                            <ul class="list-inline">
+                                <li ><a href="https://github.com/Aileen-Cacayorin/my_piggybank_rails" class="links">GitHub</a></li>
+                                <li ><a href="http://my-piggy-bank.herokuapp.com/" class="links">Live Demo</a></li>
+                            </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
